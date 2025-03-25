@@ -2,7 +2,7 @@ package c2000;
 
 public class Hello {
 
-	public static void say() {
-		System.out.println("hello");
+	public void say(String msg) {
+		System.out.println(msg);
 	}
 }
