@@ -1,8 +1,9 @@
 package c2000;
 
 public class Hello {
+	String msg = "hello";
 
-	public static void say() {
-		System.out.println("hello");
+	public void say() {
+		System.out.println(msg);
 	}
 }
